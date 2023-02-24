@@ -3,7 +3,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 public class TestsGitHub {
     @Test
-    void ExampleSoftAssertions() {
+    void exampleSoftAssertions() {
         open("https://github.com/selenide/selenide");
         $("nav.js-repo-nav").$("#wiki-tab").click();
         $("#wiki-pages-filter").setValue("SoftAssertions");
